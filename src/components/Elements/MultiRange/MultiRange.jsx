@@ -41,11 +41,11 @@ const MultiRange = ({ max, valMin, valMax }) => {
       />
 
       <output style={{ left: `calc(${percent1}% - ${percent1/3}px)` }}>
-        <span className="from-value">{`$${valFrom}`}</span>
+        <span className="from-value">{`₹${valFrom}`}</span>
       </output>
 
       <output style={{ left: `calc(${percent2}% - ${percent2/3}px)` }}>
-        <span className="to-value">{`$${valTo}`}</span>
+        <span className="to-value">{`₹${valTo}`}</span>
       </output>
 
       <div
