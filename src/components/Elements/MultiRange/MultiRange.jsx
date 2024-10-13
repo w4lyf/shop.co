@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import ReactDOM from 'react-dom/client'
-import { Usd } from "../Curency";
+import { Rs } from "../Curency";
 
 
 const MultiRange = ({ max, valMin, valMax }) => {

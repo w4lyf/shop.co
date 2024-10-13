@@ -325,9 +325,9 @@ const products = [
             {
                 color: colorVariant.green,
                 image: [
-                    "src/assets/images/products/pic5.png",
-                    "src/assets/images/products/pic5.png",
-                    "src/assets/images/products/pic5.png"
+                    "https://m.media-amazon.com/images/I/71ZKx8dgvfL._SY741_.jpg",
+                    "https://m.media-amazon.com/images/I/61sZU9KrMDL._SY741_.jpg",
+                    "https://m.media-amazon.com/images/I/71PlGGd+i8L._SX679_.jpg"
                 ]
             },
             {
@@ -621,9 +621,9 @@ const products = [
             {
                 color: colorVariant.white,
                 image: [
-                    "https://static.bershka.net/4/photos2/2023/I/0/2/p/7945/645/712/d1a387b516c93934c178e14eefb59514-7945645712_1_1_0.jpg",
-                    "https://static.pullandbear.net/2/photos//2023/I/0/1/p/7242/318/093/7242318093_2_6_8.jpg?t=1692261309384&imwidth=1125",
-                    "https://image.uniqlo.com/UQ/ST3/au/imagesgoods/457903/sub/augoods_457903_sub2.jpg",
+                    "https://m.media-amazon.com/images/I/71ZKx8dgvfL._SY741_.jpg",
+                    "https://m.media-amazon.com/images/I/61sZU9KrMDL._SY741_.jpg",
+                    "https://m.media-amazon.com/images/I/71PlGGd+i8L._SX679_.jpg"
                 ]
             },
             {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, easeIn, motion } from "framer-motion";
 import StarRating from "../components/Elements/StarRating";
-import { Usd } from "../components/Elements/Curency";
+import { Rs } from "../components/Elements/Curency";
 import Button from "../components/Elements/Button";
 import { products } from "../constants/productData";
 import CardProduct from "../components/Elements/CardProduct";
@@ -164,19 +164,19 @@ const DetailPage = () => {
                   {theproduct.discount ? (
                     <div className="flex gap-3">
                       <p className="price">
-                        <Usd>
+                        <Rs>
                           {(theproduct.price * (100 - theproduct.discount)) /
                             100}
-                        </Usd>
+                        </Rs>
                       </p>
                       <p className="price-discount">
-                        <Usd>{theproduct.price}</Usd>
+                        <Rs>{theproduct.price}</Rs>
                       </p>
                       <span className="discount">{`${theproduct.discount}%`}</span>
                     </div>
                   ) : (
                     <p className="price">
-                      <Usd>{theproduct.price}</Usd>
+                      <Rs>{theproduct.price}</Rs>
                     </p>
                   )}
                 </div>

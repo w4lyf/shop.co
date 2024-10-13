@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Usd } from "../Curency";
+import { Rs } from "../Curency";
 import StarRating from "../StarRating";
 
 const CardProduct = ({ product }) => {
@@ -33,10 +33,10 @@ const CardProduct = ({ product }) => {
         {product.discount && (
           <>
             <p className="price">
-              <Usd>{(product.price * (100 - product.discount)) / 100}</Usd>
+              <Rs>{(product.price * (100 - product.discount)) / 100}</Rs>
             </p>
             <p className="price-discount">
-              <Usd>{product.price}</Usd>
+              <Rs>{product.price}</Rs>
             </p>
             <p className="discount">{`-${product.discount}%`}</p>
           </>
@@ -45,7 +45,7 @@ const CardProduct = ({ product }) => {
         {!product.discount && (
           <>
             <p className="price">
-              <Usd>{product.price}</Usd>
+              <Rs>{product.price}</Rs>
             </p>
           </>
         )}

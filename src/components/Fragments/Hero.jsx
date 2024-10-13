@@ -34,7 +34,7 @@ const Hero = ({ tittle, text, stats, img }) => {
           </div>
         </div>
         <div className="flex-1 self-end overflow-hidden hidden lg:block">
-          <img src={img} alt="hero" className="w-full h-full" />
+          <img src="src/assets/images/hero.png" alt="hero" className="w-full h-full" />
         </div>
       </div>
     </section>

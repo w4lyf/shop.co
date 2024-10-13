@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/ecommerce-shop.co/",
   plugins: [react()],
+  publicDir: 'public',
 })

@@ -1,6 +1,6 @@
 import Budge from "../components/Elements/Budge/Budge";
 import SizeName from "../components/Elements/SizeName";
-import { Usd } from "../components/Elements/Curency";
+import { Rs } from "../components/Elements/Curency";
 import Button from "../components/Elements/Button";
 import InputField from "../components/Elements/InputField/InputField";
 import { useGlobalState } from "../hooks/globalState/useGlobalState";
@@ -15,11 +15,6 @@ const ProductList = ({data}) => {
         : cartItems.map((product, i) => (
             <div key={i}>
               <div className="flex flex-col xl:flex-row gap-3 xl:gap-5 justify-between">
-                <img
-                  src={product.image}
-                  className="h-36 aspect-square rounded-xl object-cover"
-                  alt={product.name}
-                />
                 <div className="relative flex flex-col justify-between rounded-xl w-full overflow-hidden">
                   <div className="flex flex-col gap-1">
                     <p className="tx-2 font-bold text-black-100 capitalize w-10/12 truncate">
@@ -40,7 +35,7 @@ const ProductList = ({data}) => {
                   </div>
                   <div className="flex gap-2 justify-between items-center">
                     <p className="tx-3 font-bold text-black-100">
-                      <Usd>{product.price}</Usd>
+                      <Rs>{product.price}</Rs>
                     </p>
                     <div className="flex justify-center items-center gap-2 px-2 py-1 bg-black-10 rounded-full">
                       <i
@@ -89,7 +84,7 @@ const OrderSummary = ({data}) => {
           <tr className="h-10">
             <td className="tx-2 text-black-60 capitalize w-full">subtotal</td>
             <td className="tx-3 font-bold text-black-100 text-right">
-              <Usd>{subtotalBeforeDiscount}</Usd>
+              <Rs>{subtotalBeforeDiscount}</Rs>
             </td>
           </tr>
           <tr className="h-10">
@@ -97,7 +92,7 @@ const OrderSummary = ({data}) => {
               discount ( {Math.round(discountPreserentage)}% )
             </td>
             <td className="tx-3 font-bold text-red-100 text-right">
-              -<Usd>{discount}</Usd>
+              -<Rs>{discount}</Rs>
             </td>
           </tr>
           <tr className="h-10">
@@ -105,7 +100,7 @@ const OrderSummary = ({data}) => {
               delivery fee
             </td>
             <td className="tx-3 font-bold text-black-100 text-right">
-              <Usd>{deliveryFee}</Usd>
+              <Rs>{deliveryFee}</Rs>
             </td>
           </tr>
         </tbody>
@@ -114,7 +109,7 @@ const OrderSummary = ({data}) => {
       <div className="flex justify-between mb-6">
         <p className="tx-2 font-bold text-black-60 mb-5 capitalize">Total</p>
         <p className="tx-3 font-bold text-black-100">
-          <Usd>{total}</Usd>
+          <Rs>{total}</Rs>
         </p>
       </div>
       <div className="flex gap-3 mb-6">

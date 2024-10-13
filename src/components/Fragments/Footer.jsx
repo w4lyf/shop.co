@@ -35,7 +35,7 @@ const Footer = () => {
           <Logo />
           <p className="tx-2 text-black-60">
             We have clothes that suits your style and which you're proud to
-            wear. From women to men.
+            wear.
           </p>
           <div className="social">
             <ul className="flex gap-3">
@@ -74,7 +74,7 @@ const Footer = () => {
 
       <div className="main-container flex flex-col xl:flex-row justify-center xl:justify-between items-start gap-3 pt-4 pb-12">
         <p className="tx-2 text-black-60 text-center w-full xl:w-fit">
-          Shop.co © 2000-2023, All Rights Reserved
+          Shop.co © 2024 IP-Project, All Rights Reserved
         </p>
         <div className="flex justify-center xl:justify-end w-full xl:w-fit">
           {payments.map((payment, i) => (
