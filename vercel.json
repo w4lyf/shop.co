@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/ecommerce-shop.co/",
+      "destination": "/",
       "permanent": true
     }
   ]
