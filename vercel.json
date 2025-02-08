@@ -3,7 +3,7 @@
     {
       "source": "/",
       "headers": [
-        { "key": "Refresh", "value": "0; url=/ecommerce-shop.co/" }
+        { "key": "Refresh", "value": "0; url=/" }
       ]
     }
   ]
