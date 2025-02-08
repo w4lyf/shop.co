@@ -1,8 +1,5 @@
 {
-  "redirects": [
-    { "source": "/", "destination": "/ecommerce-shop.co/", "permanent": true }
-  ],
   "rewrites": [
-    { "source": "/ecommerce-shop.co/(.*)", "destination": "/ecommerce-shop.co/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
