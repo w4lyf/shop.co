@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/ecommerce-shop.co/",
+      "permanent": true
+    }
+  ]
+}
